@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* Donate Now Button */
+
+
+.donate_now_button,
+.contribute_1 .title button,
+.updates .email button {
+    height: 52px;
+    width: 135px;
+    background-color: rgb(233, 79, 79);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Header Section */
+
+header {
+    height: 600px;
+    width: 100%;
+}
+
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images//header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header_center h1,
+.header_center p {
+    color: white;
+}
+
+.header_center h1 {
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.header_center p {
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+/* Donate Today Section */
+
+.donate_amount {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.donate_amount .title,
+.donate_plan .title {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.donate_amount .title h1,
+.donate_plan .title h1,
+.contribute_1 .title h1,
+.updates .title h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: rgb(14, 13, 13);
+}
+
+.donate_amount .title p
+.donate_plan .title p,
+.contribute_1 .title p,
+.updates .title p {
+    color: rgb(142, 138, 138);
+    font-size: 15px;
+    font-size: 600;
+}
+
+.amount {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.amount div {
+    height: 120px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tk_200 {
+    
+    background-color: #cb9b9b;
+    color: rgb(233, 79, 79);
+    border: 3px solid rgb(233, 79, 79);
+    background-color: rgb(240, 232, 232);
+    border-radius: 5px;
+}
+
+.other_amount {
+    text-align: center;
+    margin: 0 150px;
+}
+
+.other_amount p {
+    padding-bottom: 15px;
+    color: rgb(159, 152, 152);
+
+}
+
+.other_amount hr {
+    opacity: 0.4;
+}
+.other_amount button {
+    margin-top: 30px;
+}
+
+/* Donation Plan Section */
+
+.donate_plan {
+    height: 600px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.donate_cards {
+    display: flex;
+    margin: 0 5%;
+    gap: 2%;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.food, 
+.family, 
+.education {
+    height: 270px;
+    width: 27%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.food h3, 
+.family h3, 
+.education h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.food p, 
+.family p, 
+.education p{
+    font-size: 14px;
+    color: gray;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    font-weight: 800;
+    color: gray;
+    background-color: gray;
+}
+
+.food {
+    background-color: rgb(228 237 244)
+}
+
+.family {
+    background-color: #f4e7ea;;
+}
+
+.education {
+    background-color: #ffffd8;;
+}
+
+/* Contribute One Section */
+
+.contribute_1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.image {
+    width: 30%;
+}
+
+.contribute_1 .title {
+    width: 40%;
+}
+
+.contribute_1 .title button {
+
+    height: 45px;
+    width: 200px;
+    
+}
+
+.contribute_1 .title p {
+    padding-bottom: 20px;
+}
+
+/* Email and Subscribe Section */
+
+.updates {
+    height: 300px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.email {
+    background-color: #ffffdb;
+    height: 130px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates .title {
+    width: 60%;
+    margin: 0 auto;
+    height: 150px;
+    padding-bottom: 0;
+}
+
+.updates .email button {
+    height: 45px;
+    width: 150px;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input {
+    height: 45px;
+    width: 250px;
+    padding-left: 15px;
+    background-color: #dedcdc;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input::placeholder {
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+/* Footer Section */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #14141E;
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+footer div h1 {
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+footer h1 {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #d73f3f;
+}
+
+footer p {
+    font-size: 13px;
+    color: gray;
+}
